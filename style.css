@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 2%;
+    background-color: rgba(0, 0, 0, 0.473);
+    height: 870px;
+    width: 1200px;
+    padding: 100px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+h1 {
+    color: #00dd00;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.navbar {
+    background-color: #00dd00;
+    height: 45px;
+    text-align: center;
+    padding: 9px;
+    /* ho utilizzato il padding per centrare verticalmente i pulsanti poichè nel fundamentals camp non abbiamo utilizzato flexbox (a differenza della coding week di giugno) */
+}
+
+div > button {
+    font-size: 12px;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 23px;
+    color: white;
+    margin-bottom: 0;
+}
+
+span {
+    display: block;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.location:before {
+    content: "\21A6";
+} 
+
+.battery {
+    border-radius: 5px;
+}
+
+#first {
+    background-color: #f5b453;
+    height: 30px;
+    width: 35%;
+}
+
+#second {
+    background-color: #1ec31e;
+    height: 30px;
+    width: 60%;
+}
+
+#third {
+    background-color: #be4141;
+    height: 30px;
+    width: 15%;
+}
